@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+/* Головна таблиця на весь аркуш */
+.main-table {
+    width: 100%;
+    max-width: 1000px; /* Обмеження ширини, щоб не розтягувалося на весь екран */
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse; /* Усуває подвійні рамки між комірками */
+}
+
+/* Комірка однієї візитки (пунктирна рамка) */
+.card-cell {
+    border: 1px dashed #333;
+    padding: 15px 10px;
+    width: 33.33%; /* 3 стовпці = 33.3% кожен */
+}
+
+/* Внутрішня таблиця для тексту та логотипу */
+.inner-table {
+    width: 100%;
+    border: 0;
+}
+
+/* Налаштування логотипу */
+.logo-img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+/* Синій колір для телефону */
+.phone-text {
+    color: blue;
+}
